@@ -1,0 +1,28 @@
+include bulkrnaseq/static_files/yml_files/default_settings.yml
+include bulkrnaseq/static_files/yml_files/db_creds.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_canis_lupus_familiaris_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_chlorocebus_sabaeus_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_cricetulus_griseus_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_homo_sapiens_chr16_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_homo_sapiens_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_macaca_fascicularis_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_macaca_mulatta_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_mus_musculus_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_ovis_aries_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_ovis_aries_rambouillet_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_rattus_norvegicus_star.yml
+include bulkrnaseq/static_files/yml_files/generate_star_etl_sus_scrofa_star.yml
+include bulkrnaseq/static_files/yml_files/arvados_collection_genomes.yml
+include bulkrnaseq/static_files/yml_files/arvados_workflow_uuid.yml
+
+include bulkrnaseq/static_files/cwl_files/bcl2fastq_transform.cwl
+include bulkrnaseq/static_files/cwl_files/generate_star_etl.cwl
+include bulkrnaseq/static_files/cwl_files/joint_variantcall.cwl
+include bulkrnaseq/static_files/cwl_files/metrics.cwl
+include bulkrnaseq/static_files/cwl_files/star_align_transform.cwl
+
+include bulkrnaseq/static_files/apptainer.diff
+include bulkrnaseq/static_files/sbatch.template.sh
+include bulkrnaseq/static_files/validation_schema.json
+include bulkrnaseq/static_files/decoy/homo_sapiens.virus.tsv
+include bulkrnaseq/static_files/decoy/homo_sapiens_chr16.virus.tsv

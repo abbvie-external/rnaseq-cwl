@@ -1,0 +1,15 @@
+bedcutstring: "-f2-"
+fasta_url: https://ftp.ensembl.org/pub/release-111/fasta/ovis_aries/dna/Ovis_aries.Oar_v3.1.dna.toplevel.fa.gz
+fasta_size: 776779760
+fasta_cdna_url: https://ftp.ensembl.org/pub/release-111/fasta/ovis_aries/cdna/Ovis_aries.Oar_v3.1.cdna.all.fa.gz
+fasta_cdna_size: 14121319
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+gtf_url: https://ftp.ensembl.org/pub/release-111/gtf/ovis_aries/Ovis_aries.Oar_v3.1.111.gtf.gz
+gtf_size: 7624307
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Ovis aries
+thread_count: 16

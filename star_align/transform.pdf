@@ -1,0 +1,797 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 2.40.1 (0)
+%%Title: %3
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 2142 354
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 2106 318 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+% cluster_bam_metrics.cwl
+gsave
+1 setlinewidth
+0 0 0 graphcolor
+newpath 488 80 moveto
+488 302 lineto
+1723 302 lineto
+1723 80 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Times-Roman set_font
+1045 286.8 moveto 121 (bam_metrics.cwl) alignedtext
+grestore
+% cluster_fastq_metrics.cwl
+gsave
+1 setlinewidth
+0 0 0 graphcolor
+newpath 8 8 moveto
+8 227 lineto
+480 227 lineto
+480 8 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Times-Roman set_font
+181 211.8 moveto 126 (fastq_metrics.cwl) alignedtext
+grestore
+% bam_metrics.cwl#picard_collectrnaseqmetrics_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1530 178 185.4674 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1395.5 174.3 moveto 269 (picard_collectrnaseqmetrics_to_sqlite) alignedtext
+grestore
+% bam_metrics.cwl#merge_fastq_metrics
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1063 106 107.781 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+988 102.3 moveto 150 (merge_fastq_metrics) alignedtext
+grestore
+% bam_metrics.cwl#picard_collectrnaseqmetrics_to_sqlite->bam_metrics.cwl#merge_fastq_metrics
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1430.9613 162.7307 moveto
+1348.5414 150.0235 1232.2161 132.089 1152.5496 119.8064 curveto
+stroke
+0 0 0 edgecolor
+newpath 1152.9509 116.327 moveto
+1142.5343 118.2623 lineto
+1151.8842 123.2452 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1152.9509 116.327 moveto
+1142.5343 118.2623 lineto
+1151.8842 123.2452 lineto
+closepath stroke
+grestore
+% transform.cwl#merge_all_sqlite
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1775 34 86.3847 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1716.5 30.3 moveto 117 (merge_all_sqlite) alignedtext
+grestore
+% bam_metrics.cwl#picard_collectrnaseqmetrics_to_sqlite->transform.cwl#merge_all_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1696.7359 80.0001 moveto
+1711.6376 71.2416 1725.5304 63.076 1737.3513 56.1282 curveto
+stroke
+0 0 0 edgecolor
+newpath 1739.1432 59.1349 moveto
+1745.9909 51.0503 lineto
+1735.5962 53.1 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1739.1432 59.1349 moveto
+1745.9909 51.0503 lineto
+1735.5962 53.1 lineto
+closepath stroke
+grestore
+% bam_metrics.cwl#samtools_stats
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1203 253 79.0865 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1150 249.3 moveto 106 (samtools_stats) alignedtext
+grestore
+% bam_metrics.cwl#samtools_stats_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1203 178 123.4781 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1116 174.3 moveto 174 (samtools_stats_to_sqlite) alignedtext
+grestore
+% bam_metrics.cwl#samtools_stats->bam_metrics.cwl#samtools_stats_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1203 234.8446 moveto
+1203 226.3401 1203 216.0076 1203 206.4964 curveto
+stroke
+0 0 0 edgecolor
+newpath 1206.5001 206.2481 moveto
+1203 196.2482 lineto
+1199.5001 206.2482 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1206.5001 206.2481 moveto
+1203 196.2482 lineto
+1199.5001 206.2482 lineto
+closepath stroke
+grestore
+% bam_metrics.cwl#samtools_stats_to_sqlite->bam_metrics.cwl#merge_fastq_metrics
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1169.1099 160.5708 moveto
+1150.0218 150.7541 1126.0006 138.4003 1105.6429 127.9306 curveto
+stroke
+0 0 0 edgecolor
+newpath 1107.0716 124.7297 moveto
+1096.578 123.2687 lineto
+1103.8702 130.9547 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1107.0716 124.7297 moveto
+1096.578 123.2687 lineto
+1103.8702 130.9547 lineto
+closepath stroke
+grestore
+% bam_metrics.cwl#picard_collectrnaseqmetrics
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1530 253 141.8751 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1429 249.3 moveto 202 (picard_collectrnaseqmetrics) alignedtext
+grestore
+% bam_metrics.cwl#picard_collectrnaseqmetrics->bam_metrics.cwl#picard_collectrnaseqmetrics_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1530 234.8446 moveto
+1530 226.3401 1530 216.0076 1530 206.4964 curveto
+stroke
+0 0 0 edgecolor
+newpath 1533.5001 206.2481 moveto
+1530 196.2482 lineto
+1526.5001 206.2482 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1533.5001 206.2481 moveto
+1530 196.2482 lineto
+1526.5001 206.2482 lineto
+closepath stroke
+grestore
+% bam_metrics.cwl#samtools_flagstat_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+632 178 135.6761 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+535.5 174.3 moveto 193 (samtools_flagstat_to_sqlite) alignedtext
+grestore
+% bam_metrics.cwl#samtools_flagstat_to_sqlite->bam_metrics.cwl#merge_fastq_metrics
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 716.6375 163.861 moveto
+791.7158 151.3189 900.8992 133.0795 976.5269 120.4456 curveto
+stroke
+0 0 0 edgecolor
+newpath 977.2179 123.8788 moveto
+986.5045 118.7788 lineto
+976.0644 116.9745 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 977.2179 123.8788 moveto
+986.5045 118.7788 lineto
+976.0644 116.9745 lineto
+closepath stroke
+grestore
+% bam_metrics.cwl#samtools_idxstats
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+924 253 93.6835 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+860 249.3 moveto 128 (samtools_idxstats) alignedtext
+grestore
+% bam_metrics.cwl#samtools_idxstats_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+924 178 137.5759 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+826 174.3 moveto 196 (samtools_idxstats_to_sqlite) alignedtext
+grestore
+% bam_metrics.cwl#samtools_idxstats->bam_metrics.cwl#samtools_idxstats_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 924 234.8446 moveto
+924 226.3401 924 216.0076 924 206.4964 curveto
+stroke
+0 0 0 edgecolor
+newpath 927.5001 206.2481 moveto
+924 196.2482 lineto
+920.5001 206.2482 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 927.5001 206.2481 moveto
+924 196.2482 lineto
+920.5001 206.2482 lineto
+closepath stroke
+grestore
+% bam_metrics.cwl#samtools_idxstats_to_sqlite->bam_metrics.cwl#merge_fastq_metrics
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 958.0032 160.3868 moveto
+976.9611 150.5669 1000.7358 138.252 1020.8656 127.825 curveto
+stroke
+0 0 0 edgecolor
+newpath 1022.5578 130.8902 moveto
+1029.8275 123.1829 lineto
+1019.3382 124.6746 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1022.5578 130.8902 moveto
+1029.8275 123.1829 lineto
+1019.3382 124.6746 lineto
+closepath stroke
+grestore
+% bam_metrics.cwl#samtools_flagstat
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+632 253 91.784 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+569.5 249.3 moveto 125 (samtools_flagstat) alignedtext
+grestore
+% bam_metrics.cwl#samtools_flagstat->bam_metrics.cwl#samtools_flagstat_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 632 234.8446 moveto
+632 226.3401 632 216.0076 632 206.4964 curveto
+stroke
+0 0 0 edgecolor
+newpath 635.5001 206.2481 moveto
+632 196.2482 lineto
+628.5001 206.2482 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 635.5001 206.2481 moveto
+632 196.2482 lineto
+628.5001 206.2482 lineto
+closepath stroke
+grestore
+% fastq_metrics.cwl#fastqc_sqlite_reverse
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+363 106 108.5808 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+287.5 102.3 moveto 151 (fastqc_sqlite_reverse) alignedtext
+grestore
+% fastq_metrics.cwl#merge_fastq_metrics
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+244 34 107.781 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+169 30.3 moveto 150 (merge_fastq_metrics) alignedtext
+grestore
+% fastq_metrics.cwl#fastqc_sqlite_reverse->fastq_metrics.cwl#merge_fastq_metrics
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 334.1934 88.5708 moveto
+318.378 79.0018 298.5785 67.0223 281.5625 56.7269 curveto
+stroke
+0 0 0 edgecolor
+newpath 283.3214 53.7004 moveto
+272.9538 51.5182 lineto
+279.6978 59.6895 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 283.3214 53.7004 moveto
+272.9538 51.5182 lineto
+279.6978 59.6895 lineto
+closepath stroke
+grestore
+% fastq_metrics.cwl#fastqc_sqlite_reverse->transform.cwl#merge_all_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 479.9982 80.5164 moveto
+481.3384 80.3372 482.6727 80.1649 484 80 curveto
+714.884 51.3079 1419.5134 38.9085 1678.3277 35.2389 curveto
+stroke
+0 0 0 edgecolor
+newpath 1678.5101 38.7368 moveto
+1688.4599 35.0965 lineto
+1678.4116 31.7375 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1678.5101 38.7368 moveto
+1688.4599 35.0965 lineto
+1678.4116 31.7375 lineto
+closepath stroke
+grestore
+% fastq_metrics.cwl#fastqc_forward
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+126 178 79.8859 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+72.5 174.3 moveto 107 (fastqc_forward) alignedtext
+grestore
+% fastq_metrics.cwl#fastqc_sqlite_forward
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+126 106 110.4804 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+49 102.3 moveto 154 (fastqc_sqlite_forward) alignedtext
+grestore
+% fastq_metrics.cwl#fastqc_forward->fastq_metrics.cwl#fastqc_sqlite_forward
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 126 159.8314 moveto
+126 152.131 126 142.9743 126 134.4166 curveto
+stroke
+0 0 0 edgecolor
+newpath 129.5001 134.4132 moveto
+126 124.4133 lineto
+122.5001 134.4133 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 129.5001 134.4132 moveto
+126 124.4133 lineto
+122.5001 134.4133 lineto
+closepath stroke
+grestore
+% fastq_metrics.cwl#fastqc_reverse
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+363 178 78.7863 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+310.5 174.3 moveto 105 (fastqc_reverse) alignedtext
+grestore
+% fastq_metrics.cwl#fastqc_reverse->fastq_metrics.cwl#fastqc_sqlite_reverse
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 363 159.8314 moveto
+363 152.131 363 142.9743 363 134.4166 curveto
+stroke
+0 0 0 edgecolor
+newpath 366.5001 134.4132 moveto
+363 124.4133 lineto
+359.5001 134.4133 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 366.5001 134.4132 moveto
+363 124.4133 lineto
+359.5001 134.4133 lineto
+closepath stroke
+grestore
+% fastq_metrics.cwl#fastqc_sqlite_forward->fastq_metrics.cwl#merge_fastq_metrics
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 154.5645 88.5708 moveto
+170.1031 79.0896 189.5202 67.2419 206.2881 57.0107 curveto
+stroke
+0 0 0 edgecolor
+newpath 208.5762 59.7147 moveto
+215.2896 51.5182 lineto
+204.9301 53.7392 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 208.5762 59.7147 moveto
+215.2896 51.5182 lineto
+204.9301 53.7392 lineto
+closepath stroke
+grestore
+% transform.cwl#star_align
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1823 253 56.59 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1787.5 249.3 moveto 71 (star_align) alignedtext
+grestore
+% transform.cwl#star_align->bam_metrics.cwl#picard_collectrnaseqmetrics_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1778.8177 241.6905 moveto
+1765.4539 238.2698 1749.8213 234.2683 1733.017 229.9668 curveto
+stroke
+0 0 0 edgecolor
+newpath 1733.5514 226.4908 moveto
+1722.9958 227.4017 lineto
+1731.8155 233.2722 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1733.5514 226.4908 moveto
+1722.9958 227.4017 lineto
+1731.8155 233.2722 lineto
+closepath stroke
+grestore
+% transform.cwl#markduplicates
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1823 178 82.5854 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1767.5 174.3 moveto 111 (markduplicates) alignedtext
+grestore
+% transform.cwl#star_align->transform.cwl#markduplicates
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1823 234.8446 moveto
+1823 226.3401 1823 216.0076 1823 206.4964 curveto
+stroke
+0 0 0 edgecolor
+newpath 1826.5001 206.2481 moveto
+1823 196.2482 lineto
+1819.5001 206.2482 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1826.5001 206.2481 moveto
+1823 196.2482 lineto
+1819.5001 206.2482 lineto
+closepath stroke
+grestore
+% transform.cwl#star_align_sqlite
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+2011 178 87.1846 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1952 174.3 moveto 118 (star_align_sqlite) alignedtext
+grestore
+% transform.cwl#star_align->transform.cwl#star_align_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1868.5067 242.043 moveto
+1883.5197 237.9271 1900.1657 232.8167 1915 227 curveto
+1934.4024 219.3921 1955.093 209.1295 1972.2784 199.962 curveto
+stroke
+0 0 0 edgecolor
+newpath 1974.3068 202.8439 moveto
+1981.4348 195.0054 lineto
+1970.9744 196.688 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1974.3068 202.8439 moveto
+1981.4348 195.0054 lineto
+1970.9744 196.688 lineto
+closepath stroke
+grestore
+% transform.cwl#markduplicates_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 nodecolor
+1857 106 126.1777 18 ellipse_path stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1768 102.3 moveto 178 (markduplicates_to_sqlite) alignedtext
+grestore
+% transform.cwl#markduplicates_to_sqlite->transform.cwl#merge_all_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1836.7303 88.2022 moveto
+1826.5024 79.2217 1813.9389 68.1902 1802.8218 58.4289 curveto
+stroke
+0 0 0 edgecolor
+newpath 1804.8602 55.561 moveto
+1795.0365 51.593 lineto
+1800.2416 60.8211 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1804.8602 55.561 moveto
+1795.0365 51.593 lineto
+1800.2416 60.8211 lineto
+closepath stroke
+grestore
+% transform.cwl#markduplicates->transform.cwl#markduplicates_to_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1831.5796 159.8314 moveto
+1835.3358 151.8771 1839.8257 142.369 1843.9798 133.5723 curveto
+stroke
+0 0 0 edgecolor
+newpath 1847.1996 134.9503 moveto
+1848.3048 124.4133 lineto
+1840.8699 131.9612 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1847.1996 134.9503 moveto
+1848.3048 124.4133 lineto
+1840.8699 131.9612 lineto
+closepath stroke
+grestore
+% transform.cwl#star_align_sqlite->transform.cwl#merge_all_sqlite
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 2012.9772 159.7532 moveto
+2014.2717 137.7621 2012.7725 101.1369 1992 80 curveto
+1973.9376 61.6208 1915.4573 49.8865 1863.7535 42.8725 curveto
+stroke
+0 0 0 edgecolor
+newpath 1863.8869 39.3602 moveto
+1853.5171 41.532 lineto
+1862.9779 46.3009 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1863.8869 39.3602 moveto
+1853.5171 41.532 lineto
+1862.9779 46.3009 lineto
+closepath stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 2142 354
+end
+restore
+%%EOF

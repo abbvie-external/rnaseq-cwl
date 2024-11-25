@@ -1,0 +1,461 @@
+{
+    "$id": "input argument validation schema",
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/validation",
+    "definitions": {
+        "validation": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "arvados_collection_cache_size": {
+                    "type": "integer"
+                },
+                "arvados_copy_deps": {
+                    "type": "boolean"
+                },
+                "arvados_debug": {
+                    "type": "boolean"
+                },
+                "arvados_defer_downloads": {
+                    "type": "boolean"
+                },
+                "arvados_disable_preemptible": {
+                    "type": "boolean"
+                },
+                "arvados_enable_preemptible": {
+                    "type": "boolean"
+                },
+                "arvados_disable_reuse": {
+                    "type": "boolean"
+                },
+                "arvados_eval_timeout": {
+                    "type": "integer"
+                },
+                "arvados_http_timeout": {
+                    "type": "integer"
+                },
+                "arvados_log_timestamps": {
+                    "type": "boolean"
+                },
+                "arvados_metrics": {
+                    "type": "boolean"
+                },
+                "arvados_no_copy_deps": {
+                    "type": "boolean"
+                },
+                "arvados_no_copy_deps": {
+                    "type": "boolean"
+                },
+                "arvados_no_log_timestamps": {
+                    "type": "boolean"
+                },
+                "arvados_no_wait": {
+                    "type": "boolean"
+                },
+                "arvados_prefer_cached_downloads": {
+                    "type": "boolean"
+                },
+                "arvados_priority": {
+                    "type": "integer"
+                },
+                "arvados_project_uuid": {
+                    "type": "string"
+                },
+                "arvados_skip_schemas": {
+                    "type": "boolean"
+                },
+                "arvados_thread_count": {
+                    "type": "integer"
+                },
+                "arvados_trashintermediate_ttl": {
+                    "type": "integer"
+                },
+                "container": {
+                    "type": "string",
+                    "enum": ["docker", "singularity"]
+                },
+                "decoys": {
+                    "type": "array",
+                    "items": {
+                        "type": ["string", "array"],
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "featurecounts_allowmultioverlap": {
+                    "type": "boolean"
+                },
+                "featurecounts_byreadgroup": {
+                    "type": "boolean"
+                },
+                "featurecounts_countreadpairs": {
+                    "type": "boolean"
+                },
+                "featurecounts_checkfraglength": {
+                    "type": "boolean"
+                },
+                "featurecounts_countmultimappingreads": {
+                    "type": "boolean"
+                },
+                "featurecounts_fraction": {
+                    "type": "string"
+                },
+                "featurecounts_fracoverlap": {
+                    "type": "string"
+                },
+                "featurecounts_fracoverlapfeature": {
+                    "type": "string"
+                },
+                "featurecounts_ignoredup": {
+                    "type": "boolean"
+                },
+                "featurecounts_islongread": {
+                    "type": "boolean"
+                },
+                "featurecounts_junccounts": {
+                    "type": "boolean"
+                },
+                "featurecounts_largestoverlap": {
+                    "type": "integer"
+                },
+                "featurecounts_minfraglength": {
+                    "type": "integer"
+                },
+                "featurecounts_maxfraglength": {
+                    "type": "integer"
+                },
+                "featurecounts_maxmop": {
+                    "type": "integer"
+                },
+                "featurecounts_minmqs": {
+                    "type": "integer"
+                },
+                "featurecounts_minoverlap": {
+                    "type": "integer"
+                },
+                "featurecounts_nonoverlap": {
+                    "type": "integer"
+                },
+                "featurecounts_nonoverlapfeature": {
+                    "type": "integer"
+                },
+                "featurecounts_nonsplitonly": {
+                    "type": "boolean"
+                },
+                "featurecounts_notcountchimericfragments": {
+                    "type": "boolean"
+                },
+                "featurecounts_primary": {
+                    "type": "boolean"
+                },
+                "featurecounts_read2pos": {
+                    "type": "integer"
+                },
+                "featurecounts_readextension3": {
+                    "type": "integer"
+                },
+                "featurecounts_readextension5": {
+                    "type": "integer"
+                },
+                "featurecounts_readshiftsize": {
+                    "type": "integer"
+                },
+                "featurecounts_readshifttype": {
+                    "type": "string",
+                    "enum": [
+                        "downstream",
+                        "left",
+                        "right",
+                        "upstream"
+                    ]
+                },
+                "featurecounts_reportreads": {
+                    "type": "string",
+                    "enum": [
+                        "BAM",
+                        "CORE",
+                        "SAM"
+                    ]
+                },
+                "featurecounts_requirebothendsmapped": {
+                    "type": "boolean"
+                },
+                "featurecounts_splitonly": {
+                    "type": "boolean"
+                },
+                "featurecounts_usemetafeatures": {
+                    "type": "boolean"
+                },
+                "featurecounts_gtf_attrtype": {
+                    "type": ["array", "null"],
+                    "items": {
+                        "enum": ["exon_id",
+                                 "exon_number",
+                                 "exon_version",
+                                 "gene_biotype",
+                                 "gene_id",
+                                 "gene_source",
+                                 "gene_version",
+                                 "transcript_biotype",
+                                 "transcript_id",
+                                 "transcript_source",
+                                 "transcript_version"]
+                    }
+                },
+                "featurecounts_gtf_featuretype": {
+                    "type": ["array", "null"],
+                    "items": {
+                        "enum": ["CDS",
+                                 "exon",
+                                 "five_prime_utr",
+                                 "gene", 
+                                 "Selenocysteine",
+                                 "start_codon",
+                                 "stop_codon",
+                                 "three_prime_utr",
+                                 "transcript"]
+                    }
+                },
+                "fastq_dir": {
+                    "type": "string"
+                },
+                "remove_failed_samples": {
+                    "type": "boolean"
+                },
+                "samples_tsv": {
+                    "type": "string"
+                },
+                "samples_tsv_column": {
+                    "type": "string"
+                },
+                "kallisto_enabled": {
+                    "type": "boolean"
+                },
+                "kallisto_quant_bootstrap_samples": {
+                    "type": "integer"
+                },
+                "keep_cache": {
+                    "type": "boolean"
+                },
+                "star_outBAMsortingBinsN": {
+                    "type": "integer"
+                },
+                "star_limitBAMsortRAM": {
+                    "type": "integer"
+                },
+                "run_markduplicates": {
+                    "type": "boolean"
+                },
+                "run_tpmcalculator": {
+                    "type": "boolean"
+                },
+                "run_variantcall_joint": {
+                    "type": "boolean"
+                },
+                "run_variantcall_single": {
+                    "type": "boolean"
+                },
+                "use_existing_jobs": {
+                    "type": "boolean"
+                },
+                "umi_enabled": {
+                    "type": "boolean"
+                },
+                "stranded": {
+                    "type": "boolean"
+                },
+                "read_type": {
+                    "type": "string",
+                    "enum": ["bcl", "fastq"]
+                },
+                "fastq_type": {
+                    "type": "string",
+                    "enum": ["single", "paired"]
+                },
+                "machine_type": {
+                    "type": "string",
+                    "enum": ["arvados", "single", "slurm"]
+                },
+                "fastq_project_id": {
+                    "type": "string"
+                },
+                "jobs_dir": {
+                    "type": "string"
+                },
+                "work_dir": {
+                    "type": "string"
+                },
+                "bcl_inputs": {
+                    "type": ["array", "null"],
+                    "items": {
+                        "$ref": "#/definitions/BclInput"
+                    }
+                },
+                "bcl_only_lane": {
+                    "type":  ["integer", "null"]
+                },
+                "concurrent_jobs": {
+                    "type": "integer"
+                },
+                "slurm_partition": {
+                    "type": "string"
+                },
+                "slurm_resource_mem": {
+                    "type": "integer"
+                },
+                "slurm_timeout_hours": {
+                    "type": "integer"
+                },
+                "conda_env_name": {
+                    "type": "string"
+                },
+                "sys_conda_path": {
+                    "type": "string"
+                },
+                "db_type": {
+                    "type": "string",
+                    "const": "sqlite"
+                },
+                "sequencing_center": {
+                    "type": "string"
+                },
+                "retry_max": {
+                    "type": "integer"
+                },
+                "samples_yml": {
+                    "type":  ["string", "null"]
+                },
+                "sequencing_date": {
+                    "type":  ["string", "null"]
+                },
+                "sequencing_model": {
+                    "type":  ["string", "null"]
+                },
+                "sequencing_platform": {
+                    "type": "string"
+                },
+                "singularity_dir": {
+                    "type": "string"
+                },
+                "thread_count": {
+                    "type": "integer"
+                },
+                "umi_separator": {
+                    "type": "string"
+                },
+                "variantcall_contigs": {
+                    "type": "array",
+                    "items": {}
+                },
+                "species": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "array",
+                        "items": {
+                        "type": ["string", "array"],
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                      }
+                    ]
+                  }, 
+                "bcl2fq_cwl": {
+                    "type": "string"
+                },
+                "db_creds": {
+                    "type": "string"
+                },
+                "generate_star_genome_cwl": {
+                    "type": "string"
+                },
+                "input_schema": {
+                    "type": "string"
+                },
+                "input_yml": {
+                    "type": "string"
+                },
+                "joint_variantcall_cwl": {
+                    "type": "string"
+                },
+                "project_cwl": {
+                    "type": "string"
+                },
+                "slurm_template": {
+                    "type": "string"
+                },
+                "star_align_cwl": {
+                    "type": "string"
+                },
+                "base_work_dir": {
+                    "type": "string"
+                },
+                "central_genome_dir": {
+                    "type": "string"
+                },
+                "central_launching_stats": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "featurecounts_gtf_attrtype",
+                "featurecounts_gtf_featuretype",
+                "featurecounts_junccounts",
+                "concurrent_jobs",
+                "conda_env_name",
+                "sys_conda_path",
+                "db_type",
+                "fastq_type",
+                "jobs_dir",
+                "work_dir",
+                "kallisto_enabled",
+                "keep_cache",
+                "machine_type",
+                "read_type",
+                "retry_max",
+                "run_markduplicates",
+                "run_tpmcalculator",
+                "run_variantcall_joint",
+                "run_variantcall_single",
+                "samples_yml",
+                "sequencing_center",
+                "sequencing_date",
+                "sequencing_model",
+                "sequencing_platform",
+                "singularity_dir",
+                "species",
+                "stranded",
+                "thread_count",
+                "umi_enabled",
+                "umi_separator",
+                "use_existing_jobs",
+                "variantcall_contigs",
+                "base_work_dir",
+                "central_genome_dir",
+                "central_launching_stats"
+            ],
+            "title": "validation schema"
+        },
+        "BclInput": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "basecalls_dir": {
+                    "type": "string"
+                },
+                "samplesheet": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "basecalls_dir",
+                "samplesheet"
+            ],
+            "title": "BclInput"
+        }
+    }
+}

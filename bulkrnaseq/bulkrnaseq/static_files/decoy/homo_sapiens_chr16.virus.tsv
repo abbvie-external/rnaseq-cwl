@@ -1,0 +1,11 @@
+Name	Abbreviation	RefSeq	GenBank	PaVE ID	PaVE Notes	RefSeqIncomplete
+Human Cytomegalovirus	CMV ( HHV-5)	NC_006273.2	AY446894.2			
+Epstein-Barr virus	EBV (HHV-4)	NC_007605.1	AJ507799.2			
+Hepatitis B	HBV		X04615.1			NC_003977.1
+Hepatitis C	HCV-1	NC_004102.1	AF009606.1			
+Hepatitis C	HCV-2	NC_009823.1	AF177036.1			
+Human immunodeficiency virus 1	HIV-1	NC_001802.1	AF033819.3			
+Human immunodeficiency virus 2	HIV-2	NC_001722.1	M30502.1			
+Human herpes virus 8	HHV-8, KSHV	NC_009333.1	AF148805.2
+Human papillomavirus 16	HPV16	NC_001526	K02718	HPV16REF	Revised	
+Human papillomavirus 18	HPV18	NC_001357	X05015	HPV18REF	Revised	

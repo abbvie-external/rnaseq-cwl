@@ -1,0 +1,17 @@
+bedcutstring: "-f2-"
+dbsnp_url: https://ftp.ensembl.org/pub/release-108/variation/vcf/macaca_mulatta/macaca_mulatta.vcf.gz
+dbsnp_size: 556830326
+fasta_url: https://ftp.ensembl.org/pub/release-111/fasta/macaca_mulatta/dna/Macaca_mulatta.Mmul_10.dna.toplevel.fa.gz
+fasta_size: 872921950
+fasta_cdna_url: https://ftp.ensembl.org/pub/release-111/fasta/macaca_mulatta/cdna/Macaca_mulatta.Mmul_10.cdna.all.fa.gz
+fasta_cdna_size: 31226335
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+gtf_url: https://ftp.ensembl.org/pub/release-111/gtf/macaca_mulatta/Macaca_mulatta.Mmul_10.111.gtf.gz
+gtf_size: 19791504
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Macaca mulatta
+thread_count: 16

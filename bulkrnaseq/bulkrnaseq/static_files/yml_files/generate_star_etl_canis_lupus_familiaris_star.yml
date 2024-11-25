@@ -1,0 +1,17 @@
+bedcutstring: "-f2-"
+dbsnp_url: https://ftp.ensembl.org/pub/release-111/variation/vcf/canis_lupus_familiaris/canis_lupus_familiaris.vcf.gz
+dbsnp_size: 356726360
+fasta_url: https://ftp.ensembl.org/pub/release-111/fasta/canis_lupus_familiaris/dna/Canis_lupus_familiaris.ROS_Cfam_1.0.dna.toplevel.fa.gz
+fasta_size: 726351326
+fasta_cdna_url: https://ftp.ensembl.org/pub/release-111/fasta/canis_lupus_familiaris/cdna/Canis_lupus_familiaris.ROS_Cfam_1.0.cdna.all.fa.gz
+fasta_cdna_size: 27697294
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+gtf_url: https://ftp.ensembl.org/pub/release-111/gtf/canis_lupus_familiaris/Canis_lupus_familiaris.ROS_Cfam_1.0.111.gtf.gz
+gtf_size: 16759370
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Canis lupus familiaris
+thread_count: 16

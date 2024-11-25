@@ -1,0 +1,11 @@
+dependencies:
+  - pandas
+  - pip
+  - pip:
+    - myst-parser
+    - sphinxcontrib-autoyaml
+    - sphinx_rtd_theme
+    - sphinx
+    - mdit-py-plugins
+    - pyyaml
+    - csv-diff

@@ -1,0 +1,15 @@
+bedcutstring: "-f2-"
+fasta_url: https://ftp.ensembl.org/pub/release-111/fasta/sus_scrofa/dna/Sus_scrofa.Sscrofa11.1.dna.toplevel.fa.gz
+fasta_size: 752879528
+fasta_cdna_url: https://ftp.ensembl.org/pub/release-111/fasta/sus_scrofa/cdna/Sus_scrofa.Sscrofa11.1.cdna.all.fa.gz
+fasta_cdna_size: 33139086
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+gtf_url: https://ftp.ensembl.org/pub/release-111/gtf/sus_scrofa/Sus_scrofa.Sscrofa11.1.111.gtf.gz
+gtf_size: 18649751
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Sus scrofa
+thread_count: 16

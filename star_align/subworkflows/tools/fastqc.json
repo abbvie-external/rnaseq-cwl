@@ -1,0 +1,12 @@
+{
+    "INPUT": [
+        {
+            "class": "File",
+            "location": "read_1.fastq.gz"
+        },
+        {
+            "class": "File",
+            "location": "read_2.fastq.gz"
+        }
+    ]
+}

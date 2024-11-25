@@ -1,0 +1,27 @@
+decoy_tsv_array: []
+decoy_type_array: []
+dbsnp_url_array:
+  - https://ftp.ensembl.org/pub/release-109/variation/vcf/homo_sapiens/homo_sapiens_clinically_associated.vcf.gz
+dbsnp_size_array:
+  - 2633460
+fasta_url_array:
+  - https://ftp.ensembl.org/pub/release-109/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+fasta_size_array:
+  - 881211416
+fasta_cdna_url_array:
+  - https://ftp.ensembl.org/pub/release-109/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
+fasta_cdna_size_array:
+  - 78222063
+gtf_url_array:
+  - https://ftp.ensembl.org/pub/release-109/gtf/homo_sapiens/Homo_sapiens.GRCh38.109.gtf.gz
+gtf_size_array:
+  - 54258835
+bedcutstring: "-f2-"
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Homo sapiens
+thread_count: 16

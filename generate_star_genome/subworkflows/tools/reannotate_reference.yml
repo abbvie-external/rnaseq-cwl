@@ -1,0 +1,6 @@
+input:
+  class: File
+  location: file:///home/jeremiah/Downloads/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+regexp_extended: False
+search: "^>"
+replace: ">GRCh38_"

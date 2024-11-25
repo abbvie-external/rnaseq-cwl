@@ -1,0 +1,27 @@
+decoy_tsv_array: []
+decoy_type_array: []
+dbsnp_url_array:
+  - https://ftp.ensembl.org/pub/release-111/variation/vcf/mus_musculus/mus_musculus.vcf.gz
+dbsnp_size_array:
+  - 1365174990
+fasta_url_array:
+  - https://ftp.ensembl.org/pub/release-111/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.primary_assembly.fa.gz
+fasta_size_array:
+  - 806418890
+fasta_cdna_url_array:
+  - https://ftp.ensembl.org/pub/release-111/fasta/mus_musculus/cdna/Mus_musculus.GRCm39.cdna.all.fa.gz
+fasta_cdna_size_array:
+  - 50744153
+gtf_url_array:
+  - https://ftp.ensembl.org/pub/release-111/gtf/mus_musculus/Mus_musculus.GRCm39.111.gtf.gz
+gtf_size_array:
+  - 32079103
+bedcutstring: "-f2-"
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Mus musculus
+thread_count: 16

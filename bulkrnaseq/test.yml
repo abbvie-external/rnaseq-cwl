@@ -1,0 +1,12 @@
+dependencies:
+  - pytest
+  - pip
+  - pip:
+    - csv-diff
+    - pyyaml
+    - behave
+    - allure-behave
+    - behavex==3.0.0
+    - pandas
+    - pysam
+    - sample-sheet

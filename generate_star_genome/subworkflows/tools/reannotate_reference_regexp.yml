@@ -1,0 +1,6 @@
+input:
+  class: File
+  location: file:///home/jeremiah/Downloads/Homo_sapiens.GRCh38.104.gtf
+regexp_extended: True
+search: "(^[^#])"
+replace: 'GRCh38_\1'

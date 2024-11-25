@@ -1,0 +1,7 @@
+genomeFastaFiles:
+  class: File
+  location: file:///mnt/data/GRCh38.d1.vd1.fa
+sjdbGTFfile:
+  class: File
+  location: file:///mnt/data/gencode.v32.annotation.gtf
+runThreadN: 8

@@ -1,0 +1,55 @@
+arvados_debug: True
+arvados_disable_reuse: False
+arvados_log_timestamps: True
+arvados_metrics: True
+arvados_no_wait: True
+arvados_priority: 300
+arvados_project_uuid: arv-fillin-arvadosuuid
+arvados_trashintermediate_ttl: 2592000
+bcl_inputs:
+bcl_only_lane:
+concurrent_jobs: 6
+container: singularity
+db_type: sqlite
+decoys: []
+fastq_project_id: smoketest
+fastq_type: paired
+featurecounts_gtf_attrtype:
+  - "gene_id"
+featurecounts_gtf_featuretype:
+  - "exon"
+featurecounts_ignoredup: False
+featurecounts_junccounts: False
+kallisto_enabled: True
+kallisto_quant_bootstrap_samples: 10
+keep_cache: True
+machine_type: slurm
+read_type: fastq
+remove_failed_samples: False
+retry_max: 1
+run_markduplicates: True
+run_tpmcalculator: False
+run_variantcall_joint: False
+run_variantcall_single: False
+samples_yml:
+sequencing_date:
+sequencing_model:
+sequencing_platform: ILLUMINA
+sequencing_center: unknown
+singularity_dir: /path/to/dir/
+slurm_partition:
+slurm_resource_mem: 80000
+slurm_timeout_hours: 12
+star_outBAMsortingBinsN: 50
+star_limitBAMsortRAM: 0
+thread_count: 8
+umi_separator: ":"
+use_existing_jobs: False
+umi_enabled: False
+variantcall_contigs: []
+species:
+  - "Homo sapiens"
+stranded: True
+base_work_dir: /scratch/users
+central_genome_dir: /path/to/dir/
+central_launching_stats: /path/to/dir/

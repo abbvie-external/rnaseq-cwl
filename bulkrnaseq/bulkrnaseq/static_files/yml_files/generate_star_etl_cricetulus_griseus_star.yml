@@ -1,0 +1,15 @@
+bedcutstring: "-f2-"
+fasta_url: https://ftp.ensembl.org/pub/release-111/fasta/cricetulus_griseus_chok1gshd/dna/Cricetulus_griseus_chok1gshd.CHOK1GS_HDv1.dna.toplevel.fa.gz
+fasta_size: 708203454
+fasta_cdna_url: https://ftp.ensembl.org/pub/release-111/fasta/cricetulus_griseus_chok1gshd/cdna/Cricetulus_griseus_chok1gshd.CHOK1GS_HDv1.cdna.all.fa.gz
+fasta_cdna_size: 17287510
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+gtf_url: https://ftp.ensembl.org/pub/release-111/gtf/cricetulus_griseus_chok1gshd/Cricetulus_griseus_chok1gshd.CHOK1GS_HDv1.111.gtf.gz
+gtf_size: 10170581
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Cricetulus griseus
+thread_count: 16

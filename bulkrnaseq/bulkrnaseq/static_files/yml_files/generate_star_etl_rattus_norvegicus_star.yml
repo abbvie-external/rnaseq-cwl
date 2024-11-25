@@ -1,0 +1,17 @@
+bedcutstring: "-f2-"
+dbsnp_url: https://ftp.ensembl.org/pub/release-111/variation/vcf/rattus_norvegicus/rattus_norvegicus.vcf.gz
+dbsnp_size: 91707423
+fasta_url: https://ftp.ensembl.org/pub/release-111/fasta/rattus_norvegicus/dna/Rattus_norvegicus.mRatBN7.2.dna.toplevel.fa.gz
+fasta_size: 796828797
+fasta_cdna_url: https://ftp.ensembl.org/pub/release-111/fasta/rattus_norvegicus/cdna/Rattus_norvegicus.mRatBN7.2.cdna.all.fa.gz
+fasta_cdna_size: 30708952
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+gtf_url: https://ftp.ensembl.org/pub/release-111/gtf/rattus_norvegicus/Rattus_norvegicus.mRatBN7.2.111.gtf.gz
+gtf_size: 18103623
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Rattus norvegicus
+thread_count: 16

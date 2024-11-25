@@ -1,0 +1,19 @@
+dependencies:
+  - libcurl
+  - libdeflate
+  - nodejs
+  - pip==22.2.2
+  - python==3.11
+  - pip:
+    - arvados-cwl-runner
+    - arvados-python-client
+    - python-dateutil
+    - pandas
+    - pyparsing==2.4.7
+    - PyYAML
+    - jsonschema==4.17.0
+    - sqlalchemy
+    - cython
+    - chardet
+    - ruamel_yaml
+    - attrs

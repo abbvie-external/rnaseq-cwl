@@ -1,0 +1,15 @@
+bedcutstring: "-f2-"
+fasta_url: https://ftp.ensembl.org/pub/release-111/fasta/ovis_aries_rambouillet/dna/Ovis_aries_rambouillet.ARS-UI_Ramb_v2.0.dna_rm.toplevel.fa.gz
+fasta_size: 462820454
+fasta_cdna_url: https://ftp.ensembl.org/pub/release-111/fasta/ovis_aries_rambouillet/cdna/Ovis_aries_rambouillet.ARS-UI_Ramb_v2.0.cdna.all.fa.gz
+fasta_cdna_size: 38122221
+gtf_keyvalues:
+  - gene_biotype:Mt_rRNA
+  - gene_biotype:rRNA
+  - gene_biotype:rRNA_pseudogene
+gtf_modname: rrna
+gtf_url: https://ftp.ensembl.org/pub/release-111/gtf/ovis_aries_rambouillet/Ovis_aries_rambouillet.ARS-UI_Ramb_v2.0.111.gtf.gz
+gtf_size: 19639840
+run_uuid: 498c651c-bcbf-4e2b-b4da-f4b9403f7f30
+species: Ovis aries
+thread_count: 16

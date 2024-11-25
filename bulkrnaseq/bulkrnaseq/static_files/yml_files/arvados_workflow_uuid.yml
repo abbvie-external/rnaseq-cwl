@@ -1,0 +1,5 @@
+bcl2fq_cwl: arv-fillin-arvadosuuid
+generate_star_genome_cwl: arv-fillin-arvadosuuid
+joint_variantcall_cwl: arv-fillin-arvadosuuid
+project_cwl: arv-fillin-arvadosuuid
+star_align_cwl: arv-fillin-arvadosuuid
